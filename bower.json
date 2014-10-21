@@ -1,0 +1,12 @@
+{
+  "name": "windows-98-se-styles",
+  "version": "1.0.0",
+  "main": "assets/css/main.min.css",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "devDependencies": {
+    "bootstrap-sass-official": "3.2.*"
+  }
+}
