@@ -1,0 +1,13 @@
+$btn-default-bg: $theme-bg;
+$btn-primary-bg: $theme-bg;
+$btn-primary-color: $font-color;
+$btn-primary-border: $font-color;
+
+.btn.btn-default {
+  @extend .emboss-global;
+  @extend .emboss-default;
+}
+.btn.btn-primary {
+  @extend .emboss-global;
+  @extend .emboss-primary;
+}

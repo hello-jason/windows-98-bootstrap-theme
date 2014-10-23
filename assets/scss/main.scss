@@ -1,8 +1,12 @@
+
+// Active Theme
+@import "themes/_wintheme-default";
+
 // Variables
-@import "_variables";
+@import "partials/_variables";
+@import "partials/_panels";
+@import "partials/_buttons";
+@import "partials/_forms";
 
 // Bootstrap
 @import "../../bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap";
-
-// Other
-@import "_layout";

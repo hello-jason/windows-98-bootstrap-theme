@@ -1,0 +1,51 @@
+// Global
+$body-bg:                 #008080;
+$spacer:                  12px;
+$border-radius-base: 0;
+
+// Typography
+$font-size-base: 11px;
+$font-color:              #000;
+$font-family-base:             'MS Sans Serif';
+
+// Panels
+$panel-heading-padding: 2px;
+.panel {padding: 1px;}
+
+
+// Popup Window
+$window-width:            489px;
+$window-padding:          $spacer;
+
+// Global
+.underline {
+  text-decoration: underline;
+}
+
+// Extends
+.emboss-global {
+  border: 0 none;
+  outline: 0 none;
+  height: 27px;
+  padding: 0;
+  &:hover, &:focus {
+    background-color: $theme-bg;
+  }
+  &:active {
+    padding-top: 1px;
+    padding-left: 1px;
+    border: 1px solid #000;
+    box-shadow: -1px -1px 0px #000 inset, 1px 1px 0px #000 inset, -2px -2px 0px #808080 inset, 2px 2px 0px #808080 inset;
+  }
+}
+
+.emboss-default {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #fff #000 #000 #fff;
+  box-shadow: -1px -1px 0px #808080 inset, 1px 1px 0px #DFDFDF inset, -2px -2px 0px $theme-bg inset, 2px 2px 0px $theme-bg inset
+}
+.emboss-primary {
+  border: 1px solid #000;
+  box-shadow: -1px -1px 0px #000 inset, 1px 1px 0px #FFF inset, -2px -2px 0px #808080 inset, 2px 2px 0px #DFDFDF inset;
+}

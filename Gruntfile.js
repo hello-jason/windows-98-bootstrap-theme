@@ -1,5 +1,10 @@
 module.exports = function(grunt) {
 
+    // Load tasks
+  grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-watch');
+
+
   // Project configuration
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
@@ -20,30 +25,13 @@ module.exports = function(grunt) {
     // Watch files for changes
     watch: {
       sass: {
-        files: 'assets/scss/*.scss',
+        files: 'assets/scss/**/*.scss',
         tasks: ['sass'],
       },
     },
 
-    // Run simple web server
-    connect: {
-      server: {
-        options: {
-          port: 9393,
-          hostname: '*',
-          livereload: true
-        }
-      }
-    },
-
   });
 
-  // Load tasks
-  grunt.loadNpmTasks('grunt-contrib-sass');
-  grunt.loadNpmTasks('grunt-contrib-watch');
-
-  // Default task(s)
   grunt.registerTask('default', ['sass']);
-
 };
 
