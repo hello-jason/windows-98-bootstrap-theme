@@ -1,6 +1,6 @@
 # Windows 98 Styles
 
-The goal of this project is to see if I could create a Bootstrap theme that has the look and feel of Windows 98 SE. 
+The goal of this project is to create a Bootstrap theme that has the look and feel of the Windows 98 SE operating system. I am running this OS in a virtual machine and overlaying markup on top of actual screenshots, attempting to be as authenticate as possible
 
 ## Requirements
 * Node
