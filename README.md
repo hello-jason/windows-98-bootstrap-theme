@@ -1,11 +1,11 @@
 # Windows 98 Styles
 
-The purpose of this project is to provide a 
+The goal of this project is to see if I could create a Bootstrap theme that has the look and feel of Windows 98 SE. 
 
 ## Requirements
-
-* Twitter Bootstrap
+* Node
 * Grunt
+* Bower
 
 ## Install in development
 
@@ -26,8 +26,10 @@ bower install
 
 ```
 grunt
-```
 
-# Contribute
+---
 
-Submit a pull request
+## To develop
+
+* run `grunt watch`
+* Open `demo/index.html` in the browser, and edit CSS in `assets/scss` as needed
